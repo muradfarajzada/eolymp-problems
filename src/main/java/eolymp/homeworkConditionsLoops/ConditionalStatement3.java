@@ -2,7 +2,7 @@ package eolymp.homeworkConditionsLoops;
 
 import java.util.Scanner;
 
-public class ConditionStatement2 {
+public class ConditionalStatement3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long x = scanner.nextLong();
