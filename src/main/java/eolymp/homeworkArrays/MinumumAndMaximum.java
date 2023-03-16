@@ -1,8 +1,8 @@
-package eolymp.homeworkConditionsLoops;
+package eolymp.homeworkArrays;
 
 import java.util.Scanner;
 
-public class MinimumAndMaximum {
+public class MinumumAndMaximum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
