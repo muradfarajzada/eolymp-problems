@@ -2,17 +2,15 @@ package eolymp.homeworkConditionsLoops;
 
 import java.util.Scanner;
 
-public class ConditionStatement2 {
+public class ConditionalStatement2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long x = scanner.nextLong();
         long y;
-        if (x < -4) {
-            y = x + 5;
-        } else if (x <= 7) {
-            y = x * x - 3 * x;
+        if (x >= 10) {
+            y = (x * x * x) + (5 * x);
         } else {
-            y = x * x * x + 2 * x;
+            y = (x * x) - (2 * x) + 4;
         }
         System.out.println(y);
     }

@@ -2,13 +2,16 @@ package eolymp.homeworkConditionsLoops;
 
 import java.util.Scanner;
 
-public class MaximumAmongFourNumbers {
+public class InsideTheInterval {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int c = scanner.nextInt();
-        int d = scanner.nextInt();
-        System.out.println(Math.max(Math.max(a, b), Math.max(c, d)));
+        if (x >= a && x <= b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
     }
 }
